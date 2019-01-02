@@ -12,6 +12,10 @@ body {
   background-size: cover;
 }
 
+h1 {
+  color: darkgoldenrod;
+}
+
 #my-header {
   color: black;
   height: 5em;
@@ -61,4 +65,48 @@ body {
   padding: 1em;
   box-sizing: border-box;
   margin-top: 1.3em;
+}
+
+.clr {
+  clear: both;
+}
+
+table {
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table td {
+  text-align: center;
+}
+
+th {
+  background-color: tan;
+}
+
+th,
+td {
+  padding: 1em;
+}
+
+th:hover {
+  color: gray;
+}
+
+td:hover {
+  color: ghostwhite;
+  background-color: black;
+  cursor: pointer;
+}
+
+#my-footer {
+  text-align: center;
+  padding: 1em;
+  margin: 3.5em;
 }
