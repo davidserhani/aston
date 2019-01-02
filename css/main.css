@@ -1,0 +1,129 @@
+body {
+  background-color: ghostwhite;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.test {
+  background-color: black;
+  color: ghostwhite;
+  border: 5px gray solid;
+  border-radius: 25px;
+  padding: 1.5em;
+  margin: 2em;
+}
+
+.test h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-transform: capitalize;
+  color: tomato;
+  text-align: center;
+}
+
+.test2 {
+  background-color: gray;
+  border: 5px black solid;
+  border-radius: 25px;
+  color: ghostwhite;
+  padding: 1.5em;
+  margin: 2em;
+}
+
+.test2 h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-transform: capitalize;
+  color: tomato;
+  text-align: center;
+}
+
+.navigation {
+  border: 5px gray solid;
+  border-radius: 25px;
+  padding: 1.5em;
+  margin: 2em;
+  background-color: black;
+  color: ghostwhite;
+}
+
+.navigation h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-transform: capitalize;
+  color: tomato;
+  text-align: center;
+}
+
+.navigation ul {
+  list-style: lower-greek;
+}
+
+a {
+  text-decoration: none;
+  color: ghostwhite;
+}
+
+a:hover {
+  color: blanchedalmond;
+}
+
+a:active {
+  color: tomato;
+}
+
+.navigation li {
+  text-align: center;
+}
+
+.block {
+  width: 33.3%;
+  float: left;
+  padding: 1.5em;
+  box-sizing: border-box;
+}
+
+.clr {
+  clear: both;
+}
+
+#main-block {
+  float: left;
+  width: 70%;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+#side {
+  float: right;
+  width: 30%;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.list li:first-child {
+  color: coral;
+}
+
+.list li:last-child {
+  color: indianred;
+}
+
+.list li:nth-child(5) {
+  color: burlywood;
+}
+
+.list li:nth-child(even) {
+  background-color: darkkhaki;
+}
+
+.list li:nth-child(odd) {
+  background-color: darkolivegreen;
+}
