@@ -1,0 +1,46 @@
+body {
+  background-color: ghostwhite;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1em;
+  margin: 0;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+}
+
+.form {
+  padding: 2em;
+}
+
+.form .form-group {
+  padding: 0.2em;
+}
+
+.form label {
+  display: block;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="tel"],
+.form input[type="password"],
+.form textarea {
+  padding: 8px;
+  width: 30%;
+}
+
+.button {
+  height: 3em;
+  width: 8em;
+  padding: 1em;
+  margin: 2em;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: gray;
+}

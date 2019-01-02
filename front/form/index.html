@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Register</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="register.js" class="form" method="POST">
+        <fieldset>
+          <legend>My first form</legend>
+          <div class="form-group">
+            <label for="lastName">Last-Name :</label>
+            <input
+              type="text"
+              name="lastName"
+              placeholder="Musk"
+            />
+          </div>
+          <hr />
+          <div class="form-group">
+            <label for="firstName">First-Name :</label>
+            <input
+              type="text"
+              name="firstName"
+              placeholder="Elon"
+            />
+          </div>
+          <hr />
+          <div class="form-group">
+            <label for="phone">Phone :</label>
+            <input type="tel" name="phone" placeholder="666-666-666" />
+          </div>
+          <hr />
+        <div class="form-group">
+            <label for="email">Email :</label>
+            <input type="email" name="email" placeholder="elon.musk@tesla.com" />
+        </div>
+        <hr />
+          <div class="form-group">
+            <label for="pass">Password :</label>
+            <input
+              type="password"
+              name="pass"
+            />
+          </div>
+          <hr />
+          <div class="form-group">
+            <label for="msg">Message :</label>
+            <textarea
+              name="msg"
+              placeholder="lorem ..."
+            ></textarea>
+          </div>
+          <hr />
+          <div class="form-group">
+            <label for="cities">City :</label>
+            <select name="cities" id="">
+                    <option value="Lille">Lille</option>
+                    <option value="Paris">Paris</option>
+                    <option value="Lyon">Lyon</option>
+                    <option value="Singapour">Singapour</option>
+            </select>
+          </div>
+          <hr />
+          <div class="form-group">
+            <label for="age">Age :</label>
+            <input
+              type="number"
+              name="fage"
+              placeholder="34"
+            />
+          </div>
+          <hr />
+          <div class="form-group">
+            <label for="birth">Birthdate :</label>
+            <input
+              type="date"
+              name="birth"
+            />
+          </div>
+          <hr />
+          <div class="form-group">
+            <label>Gender :</label>
+            <input
+              type="radio"
+              name="gender"
+              value="man"
+
+              checked
+            />: Male
+            <input
+              type="radio"
+              name="gender"
+              value="woman"
+            />: Female
+          </div>
+          <hr />
+          <div class="form-group">
+            <label>Programming Languages :</label>
+            <input
+              type="checkbox"
+              name="language"
+              value="java"
+              checked
+            />: Java
+            <input
+              type="checkbox"
+              name="language"
+              value="typescript"
+            />: TypeScript
+            <input
+              type="checkbox"
+              name="language"
+              value="python"
+            />: Python
+          </div>
+          <hr>
+          <input class="button" type="submit" name="register" value="register">
+          <input class="button" type="reset" name="reset" value="reset">
+
+        </div>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
