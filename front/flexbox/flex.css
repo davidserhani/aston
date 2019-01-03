@@ -1,0 +1,48 @@
+body {
+  box-sizing: border-box;
+}
+.container div,
+.container2 div,
+.container3 div {
+  border: 1px solid black;
+  padding: 0.2em;
+}
+
+@media (min-width: 800px) {
+  .container {
+    display: flex;
+  }
+  .container2 {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.box1 {
+  flex: 1;
+  order: 3;
+}
+
+.box2 {
+  flex: 1;
+  order: 2;
+}
+
+.box3 {
+  flex: 3;
+  order: 1;
+}
+
+.box4 {
+  flex-basis: 25%;
+}
+
+.box5 {
+  flex-basis: 15%;
+}
+
+.container3 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

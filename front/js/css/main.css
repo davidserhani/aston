@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.2em;
+  background-color: ghostwhite;
+}
+
+.container header ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container header ul li {
+  padding: 1.2em;
+}
+
+h1 {
+  text-align: center;
+  color: tomato;
+}
+
+.container header ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.container header ul li a:hover {
+  color: gray;
+}
+
+.container p {
+  text-align: center;
+}
