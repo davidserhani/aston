@@ -21,9 +21,45 @@
         </ul>
       </header>
       <hr />
-      <h1>Learn JS</h1>
-      <p>JS est un langage interprété</p>
+      <h1 id="title">Learn <span id="js">JS</span></h1>
+      <p onmouseover="trans()">JS est un langage interprété</p>
+      <p id="p"></p>
     </div>
+    <div class="container2">
+      <button class="btn1" onclick="doClick()"">Click</button>
+      <button class="btn2" onclick="this.innerHTML = 'You have clicked !'">Click</button>
+      <button class="btn3" onclick="changeText(this)">Click</button>
+      <button class="btn4" onclick="changeText()">Click</button>
+      <button class="btn5" onclick="showDate()">Date</button>
+      <h2 id="date"></h2>
+    </div>
+
+    <div class="container3">
+      <form action="something.php" method="POST" name="myForm" onsubmit="return validateForm()">
+        <div>
+          <label>Last Name</label>
+          <input type="text" name="lastName" id="lastName">
+        </div>
+        <br>
+        <div>
+            <label>First Name</label>
+            <input type="text" name="firstName" id="firstName">
+        </div>
+        <br>
+        <div>
+          <label>colors</label>
+          <select name="background" id="background" onchange="changeBackground(this)">
+            <option value="tomato">default</option>
+            <option value="red">red</option>
+            <option value="blue">blue</option>
+            <option value="green">green</option>
+          </select>
+        </div>
+        <br>
+        <input type="submit" name="send">
+      </form>
+    </div>
+
     <script src="../js/main.js"></script>
   </body>
 </html>
