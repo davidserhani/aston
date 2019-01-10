@@ -1,0 +1,7 @@
+Application du Design Pattern Strategie:
+Le pattern Stratégie définit une famille d’algorithmes, encapsule
+chacun d’eux et les rend interchangeables.
+C'est le client qui choisit celui qui lui convient.
+
+Bonne illustration de l'emploi des interfaces (A-UN) 
+Bonne illustration de l'emploi classes abstraites (EST-UN)
