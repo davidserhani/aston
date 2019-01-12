@@ -5,6 +5,7 @@ import com.formation.domain.Canard;
 import com.formation.domain.Colvert;
 import com.formation.domain.Duck;
 import com.formation.domain.Leurre;
+import com.formation.domain.Picsou;
 
 public class Application {
 
@@ -31,6 +32,13 @@ public class Application {
 		daffy.afficher();
 		daffy.effectuerCancan();
 		daffy.effectuerMigration();
+		
+		System.out.println("*** Picsou ***");
+		Canard picsou = new Picsou();
+		picsou.afficher();
+		picsou.effectuerCancan();
+		picsou.effectuerMigration();
+		picsou.effectuerVol();
 		
 	}
 

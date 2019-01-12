@@ -1,20 +1,21 @@
 package com.formation.domain;
 
 import com.formation.comportement.impl.Coincoin;
-import com.formation.comportement.impl.MigreEnGroupe;
+import com.formation.comportement.impl.MigrerSeul;
 import com.formation.comportement.impl.NePasVoler;
 
-public class Duck extends Canard {
+public class Picsou extends Canard {
 
-	public Duck() {
+	public Picsou() {
 		comportementCancan = new Coincoin();
-		comportementMigration = new MigreEnGroupe();
 		comportementVol = new NePasVoler();
+		comportementMigration =  new MigrerSeul();
 	}
 	
 	@Override
 	public void afficher() {
-		System.out.println("Je suis Daffy Duck");	
+		System.out.println("Je suis Picsou");
+		
 	}
 
 }
