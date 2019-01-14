@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Test {
 	public static void main(String[] args) {
-		ArrayList<String> insects = new ArrayList<>();
+		List<String> insects = new ArrayList<>();
 		insects.add("mosquito");
 		insects.add("butterfly");
 		insects.add("fly");
